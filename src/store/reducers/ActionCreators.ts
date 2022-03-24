@@ -12,6 +12,7 @@ import { IUser } from "../../models/IUser";
 //     }
 // }
 
+
 export const fetchUsers = createAsyncThunk(
     'user/fetchAll',
     async (_, thunkAPI) => {
